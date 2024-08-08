@@ -1,0 +1,111 @@
+    1  pkg uodate && pkg upgrade -y
+    2  pkg update && pkg upgrade -y
+    3  pkg install apache2 php mariadb git gh -y
+    4  pkg install proot-distro
+    5  proot-distro install ubuntu
+    6  proot-distro login ubuntu
+    7  pkg list-installed
+    8  apachectl
+    9  git -v
+   10  pho -v
+   11  php -v
+   12  gh --version
+   13  java -version
+   14  pkg install openjdk-17
+   15  java -version
+   16  apt install php
+   17  apt install mysql-server
+   18  apt install apache2
+   19  apt install ssh
+   20  apt update
+   21  apt upgrade
+   22  apt install php
+   23  apt install mysql-server
+   24  exam_log.txt
+   25  git push -u origin exam_log.txt
+   26  git push origin exam_log.txt
+   27  .bash_history
+   28  mkdir linux_practice
+   29  mv src linux_practice
+   30  mv linux_practice
+   31  mv source linux_practice
+   32  mkdir linux_practice
+   33  cd linux_practice
+   34  touch cel.txt
+   35  ls
+   36  txt cel.txt
+   37  cat cel.txt
+   38  echo "Hello, Linux!" >>cel.txt
+   39  Append --cel.txt
+   40  head cel.txt
+   41  tail cel.txt
+   42  mkdir subdir
+   43  mv cel.txt
+   44  mv cel.txt subdir
+   45  mv subdir practice_subdir
+   46  cp practice_subdir/cel.txt
+   47  cp practice_linux/cel.txt
+   48  mv practice_linux practice_subdir
+   49  mv subdir practice_subdir
+   50  cp practice_subdir/cel.txt linux_practice/
+   51  ls
+   52  ls linux_practice/
+   53  mkdir practice_linux
+   54  cp practice_subdir/cel.txt
+   55  cp --help
+   56  ls
+   57  cp linux_practice/cel.txt
+   58  cp practice_subdir/cel.txt linux_practice
+   59  ls
+   60  cel.txt
+   61  ls
+   62  cp cel.txt ..
+   63  cd practice_subdir
+   64  ls
+   65  cp cel.txt ..
+   66  cd ..
+   67  ls
+   68  rm linux_practice
+   69  ls
+   70  rm -r practice_linux
+   71  ls
+   72  date
+   73  uptime
+   74  du -sh ~
+   75  ssh -v
+   76  php -v
+   77  mysql -v
+   78  apache2 -v
+   79  python -v
+   80  java -v
+   81  git clone https://github.com/wolfiezl/238449874_Miranda.gi
+   82  cd
+   83  git clone https://github.com/wolfiezl/238449874_Miranda.git
+   84  pkg cache clean
+   85  git clone git@github.com:wolfiezl/238449874_Miranda.git
+   86  pkg update
+   87  apt list --upgradable
+   88  git clone https://github.com/wolfiezl/238449874_Miranda.git
+   89  cd
+   90  cd linux_practice
+   91  git checkout -b finalexam
+   92  cd ..
+   93  cd 238449874_Miranda
+   94  git clone https://github.com/wolfiezl/238449874_Miranda.git
+   95  cd linux_practice
+   96  cd ..
+   97  cd linux_practice
+   98  ls
+   99  git checkout -b finalexam
+  100  pkg update
+  101  cd
+  102  cd linux_practice
+  103  git checkout -b finalexam
+  104  git init
+  105  git checkout -b finalexam
+  106  cd 238449874_Miranda
+  107  gh repo clone https://github.com/wolfiezl/238449874_Miranda.git
+  108  gh auth login
+  109  cd 238449874_Miranda
+  110  git checkout -b finalexam
+  111  history > exam_log.txt
